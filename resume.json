@@ -1,0 +1,109 @@
+{
+  "titleNameMap": {
+    "educationList": "教育背景",
+    "workExpList": "工作经历",
+    "projectList": "项目经历",
+    "skillList": "个人技能",
+    "awardList": "更多信息",
+    "workList": "个人作品",
+    "aboutme": { "hidden": true }
+  },
+  "avatar": { "hidden": true },
+  "profile": {
+    "name": "庄卓钢",
+    "email": "785864219@qq.com",
+    "mobile": "15626146538",
+    "github": "",
+    "zhihu": "",
+    "workExpYear": "",
+    "workPlace": "广东珠海",
+    "positionTitle": "前端工程师"
+  },
+  "educationList": [
+    {
+      "edu_time": ["2015.09.01", "2019.06.30"],
+      "school": "广东工业大学",
+      "major": "通信工程",
+      "academic_degree": "本科",
+      "dataIndex": 0
+    }
+  ],
+  "awardList": [
+    { "award_info": "英语 CET4", "award_time": "2016", "dataIndex": 0 }
+  ],
+  "workExpList": [
+    {
+      "company_name": "珠海灏霆软件有限公司",
+      "department_name": "开发部",
+      "work_time": "2021.11,",
+      "work_desc": "1. 使用vue相关技术栈,参与Web管理系统项目的需求开发,及时交付项目  2. 公司已有项目的功能维护,开发以及bug修复.",
+      "dataIndex": 0
+    },
+    {
+      "company_name": "珠海云数科技",
+      "department_name": "开发部",
+      "work_time": "2021.03,2021.11",
+      "work_desc": "1. 公司前端页面设计和实现.  2. 使用Vue技术栈和Echart等可视化框架实现数据可视化大屏制作.  3. 常规JS的编写工作,与后端工程师写作,完成数据交互,动态信息展示等功能",
+      "dataIndex": 1
+    },
+    {
+      "company_name": "珠海联通",
+      "department_name": "运维部",
+      "work_time": "2019.07,2020.10",
+      "work_desc": "1. 光缆维护岗.负责光缆的日常维护管理工作,包括光缆验收,割接,新建方案的评估等",
+      "dataIndex": 2
+    }
+  ],
+  "skillList": [
+    {
+      "skill_name": "掌握前端基础技术",
+      "skill_desc": "1. H5C3JavsScript(es5,es6),JS库JQuery,掌握JS面向对象,原型链,闭包等特性.\n2. Less,Sass预处理器及常见CSS框架如Bootstrap,WindiCSS,准确还原设计图\n3. Http基础知识,git,npm\n4. 了解常见的设计模式和数据结构",
+      "skill_level": 89,
+      "dataIndex": 0
+    },
+    {
+      "skill_name": "vue相关技术栈/后台管理系统",
+      "skill_desc": "1. 了解掌握使用vue,vue-router,vuex,axios及相应UI组件库等相关技术栈;\n2. 独立使用脚手架搭建后台管理系统项目开发环境;\n3. 独立开发封装基础组件和业务组件;\n4. 理解vue的响应式原理.",
+      "skill_level": 80,
+      "dataIndex": 1
+    },
+    {
+      "skill_name": "数据可视化大屏制作",
+      "skill_desc": "1. 使用EChart进行数据的可视化\n2. 封装项目特定的图表组件.",
+      "skill_level": 90,
+      "dataIndex": 2
+    },
+    {
+      "skill_name": "Webpack,Vite等前端构建工具",
+      "skill_level": 80,
+      "skill_desc": "1. 了解掌握Webpack,vite等前端构建工具的配置和使用\n2. 掌握项目工程规范化的相关工具的配置",
+      "dataIndex": 3
+    }
+  ],
+  "projectList": [
+    {
+      "project_name": "中葡ISMS后台管理系统",
+      "project_role": "前端开发组组员",
+      "project_desc": "此项目属于ec.Job安保系统的后端管理系统,该系统以事件处理和电子地图为核心,通过开放性的接口集成大厦的智能设备,为管理员提供可视化监控平台,极大的提高建筑的安全性.该项目基于开源框架vue-vben-admin中后台管理系统进行二次改造开发,采用vue3,typescript,pinia,ant-design-vue等技术",
+      "project_content": "1. 负责系统内功能模块的开发,包括首页,人员考勤,事件与任务管理等.  2. 封装公用的业务组件,如表格多选树递归组件,实现功能权限的多选,简化复用业务逻辑代码.  3. 使用Echart封装实现可视化数据展示.",
+      "dataIndex": 0
+    },
+    {
+      "project_name": "设备巡检后台管理系统2.0",
+      "project_role": "前端小组组员",
+      "project_desc": "该设备巡检项目以事件任务处理为核心,采集道路监控信息,提供巡检管理功能.该后台管理项目采用开源框架vue-element-admin来进行业务功能上的二次开发,相关技术栈为vue2,vuex,vue-router,axios.",
+      "project_content": "1. 该项目为公司已交付客户项目,本人主要负责项目客户新增需求的功能开发,维护以及bug的修复.  2. 使用sortable.js库完成工作日程的安排实现,故障事件列表的修改等.",
+      "dataIndex": 1
+    },
+    {
+      "project_name": "机场井盖预警系统",
+      "project_role": "前端开发组组员",
+      "project_desc": "该系统通过安装在井盖上的设备,来监控机场井盖信息,提供井盖的位置和预警功能,方便运维人员及时掌控井盖信息.该后台管理系统采用Angular框架开发,可通过iframe嵌入其他系统页面.",
+      "project_content": "1. 本人主要负责首页可视化大屏设计与制作,以及基于第三方GIS地图的功能开发.  2. 使用rem,less进行页面整体布局,并通过flexible.js实现不同宽度的自适应.  3. 使用jQuery和css3动画实现告警滚屏效果.使用Echart进行数据的可视化展示,并且通过ajax请求数据定时刷新.  4. 使用博能地图API开发机场地图上井盖的点位功能开发.包括显示隐藏图表,井盖详情,搜索功能.",
+      "dataIndex": 2
+    }
+  ],
+  "workList": [],
+  "aboutme": { "aboutme_desc": "" },
+  "theme": { "color": "#2f5785", "tagColor": "#8bc34a" }
+}
